@@ -1,0 +1,11 @@
+{
+  "name": "joy-of-energy",
+  "devDependencies": {
+    "webpack": "5.96.1",
+    "webpack-cli": "5.1.4"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}

@@ -1,0 +1,3 @@
+{:main       tw.joy-of-energy
+ :output-dir "out"
+ :output-to  "out/dev-main.js"}
