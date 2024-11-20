@@ -13,6 +13,11 @@
                      "--build" "dev"
                      "--repl"]}
 
+  :test {:main-opts ["--main"         "figwheel.main"
+                     "--compile-opts" "test.headless.cljs.edn"
+                     "--fw-opts"      "{:launch-js [\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\" \"--headless\" \"--remote-debugging-port=9222\" :open-url]}"
+                     "--main"         "tw.test-runner"]}
+
   :prod {:main-opts ["--main"          "figwheel.main"
                      "--optimizations" "advanced"
                      "--build-once"    "prod"]}}}

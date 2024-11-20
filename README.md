@@ -15,11 +15,14 @@ current user stories. This is your chance to make an impact on the business,
 improve the code base and deliver value.
 
 * [Quick Start]
+* [Run Tests]
 * [Build Production]
 
 ## Quick Start
 
-* Build JavaScript Deps
+* Clone repo
+* Move into `tw-fe-hiring-project`
+* Install JavaScript deps
   ```bash
   yarn install
   ```
@@ -31,6 +34,13 @@ improve the code base and deliver value.
   http://localhost:9500
 
 
+## Run Tests
+
+* Run Tests
+  ```bash
+  clj -M:test
+  ```
+
 ## Build Production
 
 * Build production JavaScript bundle
@@ -39,4 +49,5 @@ improve the code base and deliver value.
   ```
 
 [Quick Start]: #quick-start
+[Run Tests]: #run-tests
 [Build Production]: #build-production

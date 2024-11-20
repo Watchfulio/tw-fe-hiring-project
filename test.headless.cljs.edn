@@ -1,0 +1,7 @@
+^{:auto-bundle         :webpack
+  :ring-server-options {:port 9504}}
+{:main            tw.test-runner
+ :infer-externs   true
+ :output-dir      "target/public/cljs-out"
+ :output-to       "target/public/cljs-out/main.js"
+ :closure-defines {goog/DEBUG false}}
